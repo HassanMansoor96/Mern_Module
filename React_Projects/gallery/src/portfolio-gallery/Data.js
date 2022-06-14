@@ -89,7 +89,7 @@ const data =[
     },
     {
         id:12,
-        image:"./images/c-plus.jpg",
+        image:"./images/c++.jpg",
         title:"C++ Tutorial",
         description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
         category:"programming",
