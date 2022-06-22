@@ -9,7 +9,7 @@ function App() {
   const [cartItems, setCartItems] = useState([])
   const onAdd = (product) => {
     const exist = cartItems.find((x) => x.id === product.id)
-    if (exist) { // if the product is in the cart implement quantity 
+    if (exist) { // if the product is in the cart increment quantity 
       setCartItems(
         cartItems.map((x) =>
           x.id === product.id ? { ...exist, qty: exist.qty + 1 } : x
